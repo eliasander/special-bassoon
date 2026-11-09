@@ -1,9 +1,10 @@
 body {
-  background-color: var(--background-color);
-  display: flex;
-  justify-content: center;
+	background-color: var(--background-color);
+	display: flex;
+	justify-content: center;
 }
 
 h1 {
-  color: var(--text-color);
+	color: var(--text-color-contrast);
+	text-decoration: underline solid var(--text-color-contrast) 7px;
 }
