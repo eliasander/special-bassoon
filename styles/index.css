@@ -1,0 +1,9 @@
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--text-color);
+}

@@ -11,6 +11,10 @@
   --olive-10: #767d74;
   --olive-11: #afb5ad;
   --olive-12: #eceeec;
+
+  --background-color: var(--olive-1);
+  --text-color: var(--olive-11);
+  --text-color-contrast: var(--olive-12);
 }
 
 @supports (color: color(display-p3 1 1 1)) {
