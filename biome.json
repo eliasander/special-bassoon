@@ -13,6 +13,7 @@
   "linter": { "enabled": true, "rules": { "preset": "recommended" } },
   "html": {
     "formatter": {
+      "enabled": true,
       "indentScriptAndStyle": false,
       "selfCloseVoidElements": "always"
     }
