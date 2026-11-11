@@ -1,0 +1,29 @@
+.homes {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.home {
+	display: flex;
+	gap: 24px;
+}
+
+.home img {
+	height: 320px;
+	aspect-ratio: 5 / 3;
+	border-radius: 8px;
+}
+
+.home .details {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 70ch;
+	text-wrap-style: balance;
+}
+
+.home .details .buttons {
+	display: flex;
+	gap: 16px;
+}
